@@ -1,0 +1,16 @@
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {Link} from "expo-router";
+
+const signIn = () => {
+  return (
+    <View>
+      <Text>sign-in</Text>
+        <Link href="/(auth)/sign-up">Create Account</Link>
+    </View>
+  );
+};
+
+export default signIn;
+
+const styles = StyleSheet.create({});
